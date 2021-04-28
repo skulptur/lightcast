@@ -1,6 +1,6 @@
 ## Motivation
 
-Such a simple pattern to implement that I'd rather use my own library when I need this :)
+This pattern is needed every now and then so this library is a no dependency, tiny and typesafe solution.
 
 ## Get started
 
