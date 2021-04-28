@@ -1,6 +1,6 @@
 ## Motivation
 
-This pattern is needed every now and then so this library is a no dependency, tiny and typesafe solution.
+The Pub/Sub pattern is needed every now and then and this library is a no dependency, tiny and typesafe solution.
 
 ## Get started
 
