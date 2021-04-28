@@ -1,16 +1,15 @@
 {
   "name": "lightcast",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "skulptur",
   "license": "MIT",
   "module": "dist/library-name-fns.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "keywords": [
-    "pubsub",
     "publish",
-    "pubsub",
     "subscribe",
+    "pubsub",
     "functional"
   ],
   "files": [
