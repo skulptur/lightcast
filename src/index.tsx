@@ -1,1 +1,1 @@
-export { noop } from './lib/noop'
+export { pubSub } from './lib/pubSub'
