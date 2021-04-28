@@ -7,15 +7,23 @@ Such a simple pattern to implement that I'd rather use my own library when I nee
 Install
 
 ```bash
-npm install --save library-name-fns
+npm install --save lightcast
 # or
-yarn add library-name-fns
+yarn add lightcast
 ```
 
 Use
 
 ```typescript
-import { noop } from 'library-name-fns'
+import { createPubSub } from 'lightcast'
 
-console.log(noop()) // undefined
+// create
+const pubSub = createPubSub<string>()
+
+// subscribe anywhere in your app
+pubSub.subscribe(console.log)
+pubSub.subscribe(console.log)
+
+// dispatch
+pubSub.dispatch('hello world')
 ```
