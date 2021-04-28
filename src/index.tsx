@@ -1,1 +1,1 @@
-export { createPubSub } from './lib/pubSub'
+export { PubSub, createPubSub } from './lib/pubSub'
