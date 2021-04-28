@@ -1,5 +1,5 @@
 {
-  "name": "library-name-fns",
+  "name": "lightcast",
   "version": "0.1.0",
   "author": "skulptur",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "keywords": [
-    "functional"
+    "pubsub", "publish", "subscribe", "functional"
   ],
   "files": [
     "dist",
