@@ -1,13 +1,17 @@
 {
   "name": "lightcast",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "skulptur",
   "license": "MIT",
   "module": "dist/library-name-fns.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "keywords": [
-    "pubsub", "publish", "subscribe", "functional"
+    "pubsub",
+    "publish",
+    "pubsub",
+    "subscribe",
+    "functional"
   ],
   "files": [
     "dist",
@@ -15,6 +19,10 @@
   ],
   "engines": {
     "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "scripts": {
     "start": "tsdx watch",
